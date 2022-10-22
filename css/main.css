@@ -45,8 +45,8 @@ body{
 
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 10px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     display: flex;
    
@@ -54,7 +54,8 @@ body{
 
 .main div{
     max-width: 50%;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .main div h1{
@@ -73,10 +74,92 @@ body{
 
 
 /*INICIO NOSOTROS*/
+.nosotros{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 100%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    
+   
+}
+
+.nosotros img {
+    max-width: 450px;
+    border-radius: 8px;
+    padding-left: 80px;
+}
+
+.nosotros div{
+    max-width: 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.nosotros div h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.nosotros-list li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+
 /*FIN NOSOTROS*/
 
 
 /*INICIO EQUIPO*/
+.equipo{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+.equipo h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content:right;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
+
+.equipo-list{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    margin-right: 28px;
+
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.equipo-list img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+}
 /*FIN EQUIPO*/
 
 
