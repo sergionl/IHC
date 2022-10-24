@@ -147,10 +147,11 @@ body{
     align-items: center;
     list-style: none;
 
-    margin-right: 28px;
+   padding-bottom: 20px;
 
     display: flex;
     justify-content: space-around;
+    text-align: center;
     
     
 }
@@ -164,10 +165,121 @@ body{
 
 
 /*INICIO TESTIMONIOS*/
+
+.testimonios{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+   
+}
+.testimonios h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content:right;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
+
+.testimonio-list{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+
+.testimonio-list img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+}
+
 /*FIN TESTIMONIOS*/
 
 
 /*INICIO CONTACTANOS*/
+.contactanos{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+   
+}
+.contactanos h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content:right;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
+
+.contactanos-list{
+    background-color: rgb(255, 255, 255);
+    padding-left: 30%;
+    
+    list-style: none;
+    vertical-align: top;
+    
+}
+.contactanos-list li {
+    margin-bottom: 15px;
+}
+
+.small-textbox{
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+.big-textbox{
+    width: 35%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    vertical-align: top;
+}
+.contactanos-button-list{
+    padding-top: 20px;
+    padding-left: 42%;
+    
+    list-style: none;
+    vertical-align: top;
+    display: flex;
+    
+}
+
+.menu-item { 
+    margin-right: 100px;
+}
+.contactanos-button{
+    width: 100px;
+    height: 30px;
+}
+
 /*FIN CONTACTANOS*/
 
 
