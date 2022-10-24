@@ -284,10 +284,58 @@ body{
 
 
 /*INICIO REDES SOCIALES*/
+.redes-sociales{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: center;
+   
+}
+.redes-sociales h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content:right;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
 /*FIN REDES SOCIALES*/
 
 
 /*INICIO FOOTER*/
+
+.first-list-redes{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+    margin-left: 20%;
+    
+}
+
+.first-list-redes li{
+    
+    padding-left: 5%;
+}
+
+.second-list-redes{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.redes-img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 8px;
+}
 /*FIN FOOTER*/
 
 
