@@ -27,7 +27,7 @@ body{
 
 .nav-list a{
     text-decoration: none;
-    color: #F9D99A;
+    color: #ffffff;
     padding: 20px;
     font-size: 20px;
 }
@@ -40,17 +40,12 @@ body{
 
 /*INICIO MAIN*/
 .main{
-    background-color: #B0F2C2;
+    background-color: rgba(0, 214, 201, .15);
     height: 150px;
     width: 100%;
-
-    
     padding-top: 40px;
     padding-bottom: 100px;
-
     display: flex;
-    
-   
 }
 
 .main div{
@@ -65,7 +60,7 @@ body{
 }
 .main div p{
     font-size: 24px;
-    color: #0779C0;
+    color: #000000;
     
 }
 
@@ -78,7 +73,7 @@ body{
 
 /*INICIO NOSOTROS*/
 .nosotros{
-    background-color: #F9D99A;
+    background-color: #e7e5ff;
     height: 150px;
     width: 100%;
 
@@ -112,7 +107,7 @@ body{
 
 .nosotros div p{
     font-size: 24px;
-    color: #0779C0;
+    color: #000;
 }
 
 .nosotros-list li{
@@ -123,7 +118,7 @@ body{
 }
 
 .nosotros-list li P{
-    color: #0779C0;
+    color: #000;
 }
 
 /*FIN NOSOTROS*/
@@ -131,7 +126,7 @@ body{
 
 /*INICIO EQUIPO*/
 .equipo{
-    background-color: #B0F2C2;
+    background-color: rgba(0, 214, 201, .15);
     height: 70px;
     width: 100%;
 
@@ -153,7 +148,7 @@ body{
 }
 
 .equipo-list{
-    background-color: #B0F2C2;
+    background-color: rgba(0, 214, 201, .15);
     display: flex;
     align-items: center;
     list-style: none;
@@ -183,7 +178,7 @@ body{
 /*INICIO TESTIMONIOS*/
 
 .testimonios{
-    background-color: #F9D99A;
+    background-color: #e7e5ff; 
     height: 70px;
     width: 100%;
 
@@ -204,7 +199,7 @@ body{
 }
 
 .testimonio-list{
-    background-color: #F9D99A;
+    background-color: #e7e5ff;
     display: flex;
     align-items: center;
     list-style: none;
@@ -224,7 +219,7 @@ body{
 
 .testimonio-list .info{
     font-size: 14px;
-    color: #0779C0;
+    color: #000;
 }
 
 .testimonio-list img{
@@ -238,7 +233,7 @@ body{
 
 /*INICIO CONTACTANOS*/
 .contactanos{
-    background-color: #B0F2C2;
+    background-color: rgba(0, 214, 201, .15);
     height: 70px;
     width: 100%;
 
@@ -259,12 +254,11 @@ body{
 }
 
 .contactanos-elements{
-    background-color: #B0F2C2;
     padding-bottom: 15px;
+    background-color: rgba(0, 214, 201, .15);
 }
 
 .contactanos-list{
-    background-color: #B0F2C2;
     padding-left: 30%;
     
     list-style: none;
@@ -292,8 +286,7 @@ body{
     font-size: 16px;
 }
 .contactanos-button-list{
-    background-color: #B0F2C2;
-    padding-top: 20px;
+        padding-top: 20px;
     padding-left: 42%;
     
     list-style: none;
