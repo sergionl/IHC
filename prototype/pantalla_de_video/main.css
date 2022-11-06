@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+
+/*INICIO HEADER*/
+
+.nav{
+    height: 136px;
+    width: 100%;
+    top: 24px;
+    display: flex;
+    justify-content:center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nav-list p{
+    padding-left: 25px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    
+}
+
+.nav-list a img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+}
+
+.arrow{
+    position: absolute;
+    width: 38.94px;
+    height: 31px;
+    left: 10%;
+    top: 5%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.boy{
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 75%;
+    top: 5%;
+}
+
+.plataforma{
+    left: 0%;
+    right: 51.86%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.linea{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+
+    border: 1px solid #000000;
+}
+/*FIN HEADER*/
+
+/*PANTALLA VIDEO*/
+.titulo-juego{
+    position: absolute;
+    left: 3.95%;
+    right: 38.37%;
+    top: 18.35%;
+    bottom: 77.58%;
+    
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+}
+.pantalla-juego{
+    position: absolute;
+    width: 88.37%;
+    height: 19.21%;
+    left: 3.95%;
+    top: 23.28%;
+
+    background: #D9D9D9;
+}
+/*FIN PANTALLA VIDEO*/
+
+
+/*CALIFICAR*/
+.calificar-list{
+    
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    position: absolute;
+    top: 48.82%;
+    left: 0%;
+    right: 0%;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.calificar-list .img-calificar{
+    max-width: 64px;
+    max-height: 64px;
+    
+}
+.calificar-list2{
+    
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    position: absolute;
+    top: 56.55%;
+    left: 0%;
+    right: 0%;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.btn-calificar{
+    width: 94px;
+    height: 19px;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+/*FIN CALIFICAR*/
+
+/*FAVORITOS*/
+.img-favorito{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 42.56%;
+    top: 58.91%;
+}
+
+.btn-favorito{
+    position: absolute;
+    width: 147px;
+    height: 22px;
+    left: 32.33%;
+    top: 65.77%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+/*FIN FAVORITOS*/
+
+/*REGRESAR*/
+.btn-regresar{
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 37.21%;
+    top: 95.60%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+   
+}
+/*FIN REGRESAR*/
