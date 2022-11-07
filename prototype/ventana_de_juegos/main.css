@@ -92,25 +92,6 @@ body{
 }
 /*FIN HEADER*/
 
-.search {
-    border: solid 1px black;
-    margin: 10px;
-}
-
-.barra-scroll{
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    border: 1px solid none;
-    border-radius: 10px;
-    padding: 10px;
-    display: inline-block;
-    width: 100px;
-}
-
 .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -118,6 +99,8 @@ body{
 
 .contenedor > div {
     margin: 10;
+    width: 180px;
+    text-align: center;
 }
 
 .button-container {
