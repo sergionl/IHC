@@ -12,7 +12,7 @@ body{
 /*INICIO HEADER*/
 
 .nav{
-    height: 136px;
+    height: 106px;
     width: 100%;
     top: 24px;
     display: flex;
@@ -21,7 +21,7 @@ body{
 
 .nav-list{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     list-style: none;
     
 }
@@ -47,35 +47,28 @@ body{
 }
 
 .arrow{
-    position: absolute;
+    /*position: absolute;*/
     width: 38.94px;
     height: 31px;
-    left: 10%;
-    top: 5%;
+    padding-top: 30px;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .boy{
-    position: absolute;
+    /*position: absolute;*/
     width: 73px;
     height: 73px;
-    left: 75%;
-    top: 5%;
+    
+    padding-top: 30px;
+    padding-right: 5%;
 }
-
 .plataforma{
-    left: 0%;
-    right: 51.86%;
-    top: 0%;
-    bottom: 0%;
-
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
-    
 
     display: flex;
     align-items: center;
@@ -83,22 +76,18 @@ body{
 }
 .linea{
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 100%;
-    bottom: 0%;
+    width: 100%;
 
     border: 1px solid #000000;
 }
+
 /*FIN HEADER*/
 
 /*PANTALLA JUEGO*/
 .titulo-juego{
-    position: absolute;
-    left: 3.95%;
-    right: 38.37%;
-    top: 18.35%;
-    bottom: 77.58%;
+    
+    padding-top: 11px;
+    padding-left: 22px;
     
     font-family: 'Lexend';
     font-style: normal;
@@ -107,11 +96,15 @@ body{
     line-height: 38px;
 }
 .pantalla-juego{
-    position: absolute;
-    width: 88.37%;
-    height: 19.21%;
-    left: 3.95%;
-    top: 23.28%;
+    
+
+
+    width: 380px;
+    height: 179px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 22px;
+    margin-right: 28px;
 
     background: #D9D9D9;
 }
@@ -119,17 +112,14 @@ body{
 
 /*LOGROS*/
 .titulo-logro{
-    position: absolute;
-    left: 5.12%;
-    right: 70.47%;
-    top: 43.35%;
-    bottom: 52.58%;
-
+    
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
+    padding-left: 22px;
+    padding-top: 6px;
 }
 .logro-list{
     
@@ -138,10 +128,11 @@ body{
     align-items: center;
     list-style: none;
 
-    position: absolute;
+    /*position: absolute;
     top: 50.21%;
     left: 0%;
-    right: 0%;
+    right: 0%;*/
+    padding-top: 26px;
 
     display: flex;
     justify-content: space-around;
@@ -174,10 +165,7 @@ body{
     align-items: center;
     list-style: none;
 
-    position: absolute;
-    top: 74.46%;
-    left: 0%;
-    right: 0%;
+    padding-top: 54px;
 
     display: flex;
     justify-content: space-around;
@@ -195,11 +183,8 @@ body{
     align-items: center;
     list-style: none;
 
-    position: absolute;
-    top: 82.19%;
-    left: 0%;
-    right: 0%;
-
+    padding-top: 7px;
+    
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -219,36 +204,39 @@ body{
 
 /*FAVORITOS*/
 .img-favorito{
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 42.56%;
-    top: 84.55%;
+    width: 64.41px;
+    height: 55.71px;
+    padding-left: 187.83px;
+    padding-top: 2px;
 }
 
 .btn-favorito{
-    position: absolute;
-    width: 147px;
-    height: 22px;
-    left: 32.33%;
-    top: 91.31%;
+
+    display: block;
+    width: 147.94px;
+    height: 19.15px;
 
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
+
+    margin-left: 149.59px;
+
 }
 /*FIN FAVORITOS*/
 
 /*REGRESAR*/
 .btn-regresar{
-    position: absolute;
+    
+    display: block;
+    margin-top: 20px;
+    margin-left: 160px;
+
     width: 109px;
     height: 24px;
-    left: 37.21%;
-    top: 95.60%;
-
+    
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
