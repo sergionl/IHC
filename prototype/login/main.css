@@ -1,0 +1,38 @@
+.contenedor {
+    display: flex; 
+    justify-content: start;
+}
+
+.contenedor-formulario {
+    margin-top: 50px; 
+    
+}
+
+.form {
+    width: 300px;
+    margin: auto;
+}
+
+.input-text {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 214, 201, 0.15);
+    border: none;
+    height: 25px;
+}
+
+.checkbox {
+    color:green;
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+}
