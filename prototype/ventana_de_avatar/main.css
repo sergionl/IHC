@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+
+/*INICIO HEADER*/
+
+.nav{
+    height: 136px;
+    width: 100%;
+    top: 24px;
+    display: flex;
+    justify-content:center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nav-list p{
+    padding-left: 25px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    
+}
+
+.nav-list a img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+}
+
+.arrow{
+    position: absolute;
+    width: 38.94px;
+    height: 31px;
+    left: 10%;
+    top: 5%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.boy{
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 75%;
+    top: 5%;
+}
+
+.plataforma{
+    left: 0%;
+    right: 51.86%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.linea{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+
+    border: 1px solid #000000;
+}
+/*FIN HEADER*/
+
+.form {
+    margin: 20px;
+}
+
+.input-text {
+    background-color: rgba(211, 196, 255, 0.53);
+    border: none;
+    margin-top: 5px;
+    width: 80%;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgba(155, 119, 255, 0.49);
+}

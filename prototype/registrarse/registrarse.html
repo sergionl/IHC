@@ -4,58 +4,61 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width", initial-scale=1.0>
         <title>LetSkole</title>
-        <link rel="stylesheet" href="/IHC/css/main.css" />
+        <link rel="stylesheet" href="./main.css" />
     </head>
     <body>
-        <div id="return">
-            <img src="/IHC/img/left-arrow.png" width =32 height=32>
+        <div class="contenedor">
+            <img src="../../img/left-arrow.png" width=32 height=32>
+            <div class="title">
+                <h2><span>Registrate</span></h2>
+                <p> y comienza tu aventura!</p>
+            </div>
         </div>
-        <h2> <span>Registrate</span></h2>
-        <h3> y comienza tu aventura!</h3>
         
+        <div style="margin-left: 20px;">
+            Registrarse como:
+            <ul class="container">
+                <li class="item">Padre</li>
+                <li class="item">Hijo</li>
+            </ul>
+        </div>
         <div class="form" id="form-registro">
             <div>
                 <label > Nombre:</label>
                 <br>
-                <input type="text" id="nombre" name="nombre">
+                <input class="input-text" type="text" id="nombre" name="nombre">
             </div>    
             <div>
                 <label > Usuario:</label>
                 <br>
-                <input type="text" id="usuario" name="usuario">
+                <input class="input-text" type="text" id="usuario" name="usuario">
             </div>    
             <div>
                 <label > Correo:</label>
                 <br>
-                <input type="text" id="correo" name="correo">
+                <input class="input-text" type="text" id="correo" name="correo">
 
             </div>    
             <div>
                 <label > Contraseña:</label>
                 <br>
-                <input type="password" id="contraseña" name="contraseña">
+                <input class="input-text" type="password" id="contraseña" name="contraseña">
 
             </div>    
             <div>
                 <label > Confirmar contraseña:</label>
                 <br>
-                <input type="password" id="contraseña" name="contraseña">
+                <input class="input-text" type="password" id="contraseña" name="contraseña">
                 
             </div>
-            <div class="row">
-                <div class="column">
-                    <a href="../registrado/registrado.html">
-                        <input type="submit" value="Registrarse">
-                    </a>
-                    
-                </div>
-                <div class="column">
-                    <a href="../login/login.html">
-                        <input type="button" value="Cancelar">
-                    </a>
-                    
-                </div>
+            <div class="container-button">                
+                <a href="../registrado/registrado.html">
+                    <input class="button" type="submit" style="background-color: #9B77FF; color:white;" value="Registrarse">
+                </a>
                 
+                <a href="../login/login.html">
+                    <input class="button" type="button" style="background-color: rgba(155, 119, 255, 0.49);" value="Cancelar">
+                </a>
             </div>  
         </div>
 

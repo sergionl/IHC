@@ -1,0 +1,49 @@
+.contenedor {
+    display: flex;
+    align-content: start;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    marker: none;
+    list-style-type: none;
+    background-color: rgba(230, 221, 255, 0.42);
+    padding: 10px;
+}
+
+.form {
+    margin: 20px;
+}
+
+.input-text {
+    background-color: rgba(211, 196, 255, 0.53);
+    border: none;
+    margin-top: 5px;
+    width: 80%;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 5px;
+    border: none;
+}
