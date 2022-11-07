@@ -4,23 +4,28 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width", initial-scale=1.0>
         <title>LetSkole</title>
-        <link rel="stylesheet" href="/IHC/css/main.css" />
+        <link rel="stylesheet" href="./main.css" />
     </head>
     <body>
-        <div id="return">
-            <img src="/IHC/img/left-arrow.png" width =32 height=32>
+        <div class="contenedor">
+            <img src="../../img/left-arrow.png" width=32 height=32>
+            <div class="title">
+                <h2><span>Registro</span></h2>
+                <p>exitoso!</p>
+            </div>
         </div>
 
-        <h2> Registro</h2>
-        <h3> exitoso!</h3>
-        <p> Se ha enviado un mensaje de confirmación al correo proporcionado,por favor, 
-        </p><p>sino lo encuentra revisa la carpeta de spam o correo no deseado</p>
 
-        <a href="../login/login.html">
-            <button type="button" id="confirmar"> Aceptar</button>
-        </a>
-        
-        <br>
-        <a href="">Reenviar correo de confirmación</a>
+        <p class="texto"> Se ha enviado un mensaje de confirmación al correo proporcionado,por favor, 
+        sino lo encuentra revisa la carpeta de spam o correo no deseado</p>
+
+        <div style="margin: auto; text-align: center;">
+            <a href="../login/login.html">
+                <button type="button" id="confirmar" class="button-aceptar"> Aceptar</button>
+            </a>
+            
+            <br>
+            <a class="confirmacion" href="">Reenviar correo de confirmación</a>
+        </div>
     </body>
 </html>

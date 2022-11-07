@@ -92,30 +92,33 @@ body{
 }
 /*FIN HEADER*/
 
-img {
-    float: right;
+.form {
+    margin: 20px;
 }
 
-h2{
-    padding-left: 17px;
-}
-
-.clearfix{
-    padding-left: 17px;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.button-container {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-}
-.button {
+.input-text {
     background-color: rgba(211, 196, 255, 0.53);
+    border: none;
+    margin-top: 5px;
+    width: 80%;
     padding: 5px;
+    margin-left: 15px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgba(155, 119, 255, 0.49);
 }

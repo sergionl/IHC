@@ -1,0 +1,30 @@
+.contenedor {
+    display: flex;
+    align-content: start;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.texto {
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button-aceptar {
+    padding: 15px;
+    border: none;
+    background-color: rgba(211, 196, 255, 0.53);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.confirmacion {
+    color: rgba(0, 133, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+}
