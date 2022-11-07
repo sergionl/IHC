@@ -110,6 +110,25 @@ body{
 }
 /*FIN PANTALLA JUEGO*/
 
+/*BOTÓN COMPARTIR*/
+.btn-compartir{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    width: 114px;
+    height: 31px;
+
+    background: #7BD5FB;
+    border-radius: 5px;
+
+    margin-left: 276px;
+    margin-top: 12px;
+}
+/*FIN BOTÓN COMPARTIR*/
+
 /*LOGROS*/
 .titulo-logro{
     
