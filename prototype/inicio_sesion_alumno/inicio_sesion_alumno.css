@@ -75,8 +75,6 @@ body{
     align-items: center;
     text-align: center;
 }
-
-
 .clearfix{
     background-color: rgba(0,214,201,0.15);
 }
@@ -97,6 +95,7 @@ body{
     clear: both;
     display: table;
 }
+
 div.gallery{
     display: flex ;
     padding-left: 70px;
@@ -104,13 +103,3 @@ div.gallery{
 div.gallery p{
     text-align: center;
 }
-/* .linea{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 100%;
-    bottom: 0%;
-
-    border: 1px solid #000000;
-} */
-/*FIN HEADER*/
