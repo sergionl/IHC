@@ -1,11 +1,14 @@
 .column {
-    box-sizing: border-box;
+    display: flex;
+    /* box-sizing: border-box; */
     float: left;
     width: 50%;
     padding: 15px;
 }
+
 .row::after{
-    box-sizing: border-box;
+    /* display:flex; */
+    /* box-sizing: border-box; */
     content: "";
     clear: both;
     display: table;
