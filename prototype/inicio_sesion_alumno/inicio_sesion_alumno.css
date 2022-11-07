@@ -49,6 +49,7 @@ body{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
 .boy{
     /*position: absolute;*/
     width: 73px;
@@ -75,7 +76,7 @@ body{
     border: 1px solid #000000;
 }
 
-
+/*FIN HEADER*/
 .clearfix{
     background-color: rgba(0,214,201,0.15);
 }
@@ -96,6 +97,7 @@ body{
     clear: both;
     display: table;
 }
+
 div.gallery{
     display: flex ;
     padding-left: 70px;
