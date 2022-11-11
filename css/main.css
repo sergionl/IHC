@@ -1,15 +1,141 @@
-.column {
-    display: flex;
-    /* box-sizing: border-box; */
-    float: left;
-    width: 50%;
-    padding: 15px;
+#logo{
+    display: block;  
 }
 
-.row::after{
-    /* display:flex; */
-    /* box-sizing: border-box; */
-    content: "";
-    clear: both;
-    display: table;
+#logo{
+    display: flex;
+    justify-content: center;
 }
+
+#logo img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.img-index {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.img-index img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.img-row{
+    display: flex;
+    justify-content: end;
+}
+
+.img-row img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-right: 15%;
+    /* border: 2px solid red; */
+}
+
+@media (max-width:374px){
+    #logo img{
+        max-width: 106px;
+        max-height: 106px;
+    }
+    
+    .img-index img{
+        max-width: 106px;
+        max-height: 106px;
+    }
+    
+    .img-row img{
+        max-width: 106px;
+        max-height: 106px;
+    }
+}
+
+@media (min-width:375px){
+    #logo img{
+        max-width: 125px;
+        max-height: 125px;
+    }
+    
+    .img-index img{
+        max-width: 125px;
+        max-height: 125px;
+    }
+    
+    .img-row img{
+        max-width: 125px;
+        max-height: 125px;
+    }
+}
+
+@media (min-width:425px){
+    #logo img{
+        max-width: 141.6px;
+        max-height: 141.6px;
+    }
+    
+    .img-index img{
+        max-width: 141.6px;
+        max-height: 141.6px;
+    }
+    
+    .img-row img{
+        max-width: 141.6px;
+        max-height: 141.6px;
+    }
+}
+
+ @media (min-width:768px){
+    #logo img{
+        max-width: 256px;
+        max-height: 256px;
+    }
+    
+    .img-index img{
+        max-width: 256px;
+        max-height: 256px;
+    }
+    
+    .img-row img{
+        max-width: 256px;
+        max-height: 256px;
+    }
+}
+
+@media (min-width:1024px){
+    #logo img{
+        max-width: 341.3px;
+        max-height: 341.3px;
+    }
+    
+    .img-index img{
+        max-width: 341.3px;
+        max-height: 341.3px;
+    }
+    
+    .img-row img{
+        max-width: 341.3px;
+        max-height: 341.3px;
+    }
+}
+
+@media (min-width:1440px){
+    #logo img{
+        max-width: 480px;
+        max-height: 480px;
+    }
+    
+    .img-index img{
+        max-width: 480px;
+        max-height: 480px;
+    }
+    
+    .img-row img{
+        max-width: 480px;
+        max-height: 480px;
+    }
+}  
