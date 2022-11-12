@@ -5,44 +5,40 @@
         <meta name="viewport" content="width=device-width", initial-scale=1.0>
         <title>LetSkole</title>
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="../../css/main.css">
     </head>
     <body>
-        <div class="contenedor">
-            <a href="../../index.html">
-                <img src="../../img/left-arrow.png" width =32 height=32>
-            </a>
-            
-            <img src="../../img/LOGO-LETSKOLE.png" alt="Logo de la aplicación LetSkole" style="margin-left: auto; margin-right: auto;">
-        </div>
-        <div class="form">
-            <form action="">
-                <div>
-                    <label >Usuario:</label>
-                    <input class="input-text" type="text" name="usuario" id="usuario">
-                </div>
-                <br>
-                <div>
-                    <label> Contraseña</label>
-                    <input class="input-text" type="password" name="Contraseña" id="Contraseña">
-                </div>
-                <br>
-                <div>
-                    <input class="checkbox" type="checkbox" name="conectado" id="conectado" checked>
-                    <label for="conectado"> Mantenerme Conectado</label>
-                </div>
-                
-                <div class="row">
-                    <a href="../registrarse/registrarse.html">
-                        <button type="button" style="background-color: rgba(0, 214, 201, 0.9); color: white;">Registrarse</button>
-                    </a>
-                    <a href="../inicio_sesion_alumno/iniciar_sesion_alumno.html">
-                        <button type="button" style="background-color: rgba(0, 214, 201, 0.1); color:black;">Iniciar<br>Sesion</button>
-                    </a>
-                    
-                    
-                </div>
+      <div id="logo">
+        <a href="../../index.html"><img src="../../img/left-arrow.png"></a>
+        <img src="../../img/LOGO-LETSKOLE.png"  alt="LogoLetSkole" style="margin-left: auto; margin-right: auto;">
+      </div>
+      
+      <div class="form">
+        <form action="">
+          <div>
+              <label >Usuario:</label>
+              <input class="input-text" type="text" name="usuario" id="usuario">
+          </div>
+          <br>
+          <div>
+              <label> Contraseña:</label>
+              <input class="input-text" type="password" name="Contraseña" id="Contraseña">
+          </div>
+          <br>
+          <div>
+              <input class="checkbox" type="checkbox" name="conectado" id="conectado" checked>
+              <label for="conectado"> Mantenerme Conectado</label>
+          </div>
+          <div class="row">
+              <a href="../registrarse/registrarse.html">
+                  <button type="button" style="background-color: rgba(0, 214, 201, 0.9); color: white;">Registrarse</button>
+              </a>
+              <a href="../inicio_sesion_alumno/iniciar_sesion_alumno.html">
+                  <button type="button" style="background-color: rgba(0, 214, 201, 0.1); color:black;">Iniciar Sesion</button>
+              </a>       
+          </div>
 
-            </form>
-        </div>
+        </form>
+      </div>
     </body>
 </html>

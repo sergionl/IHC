@@ -4,80 +4,61 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale=1>
         <title>LetSkole</title>
-        
         <link rel="stylesheet" href="./inicio_sesion_alumno.css">
-
     </head>
     <body>
         <!--INICIO HEADER-->
-        
-        <nav class="nav">
-            <ul class="nav-list">
-                
-                <li><p > Letskole</p></li>
-                <li>
-                    <a href="../opciones_de_usuario/opciones_usuario.html">
-                        <img class = "boy"src="../../img/boy.png" alt="Perfil" >
-                    </a>
-                </li>
-            </ul>    
-        </nav>
-
-        <p class = "plataforma"> Plataforma Educativa</p>
+        <div class="header">
+            <h2>LET SKOLE</h2>
+            <div class="header-boy">
+                <a href="../opciones_de_usuario/opciones_usuario.html"><img src="../../img/boy_256.png" alt="Perfil" width=512 height="512" ></a>
+            </div>
+            <h4>Plataforma Educativa</h4>
+        </div>
         <hr class = "linea">
-        <br>
-        
-        <!-- BODY -->
-         <div class="row">
-            <h2><strong>Noticias:</strong></h2>
-            <div class="column">
-                    <div class="clearfix ">
-                        <div style="float:right; ">
-                            <a href="../pantalla_de_juego/index.html">
-                                <img src="../../img/rompecabezas.png">
-                            </a>
-                            <p style="text-align:center;"><strong>Jugar</strong></p>
-                        </div>
-                        <p style="padding: 45px 0;">Lanzamiento de nuevo juego de figuras geometricas.</p>
-                    </div>                 
-            </div>
-            <div class="column">
-                <div class="clearfix-2">
-                    <div style="float:right; ">
-                        <a href="../pantalla_de_video/index.html">
-                            <img src="../../img/video.png">
-                        </a>
-                        
-                        <p style="text-align:center;"><strong>Ver</strong></p>
-                    </div>
-                    <p style="padding: 45px 0;">Lanzamiento de nuevo juego de figuras geometricas.</p>
-                </div>                 
-            </div>
-        </div>
-    
-    <h2><strong>Secciones:</strong></h2> 
-    
-    <div class="gallery">
-        <div class="column" >
-            <div class="column">
-                <a href="../ventana_de_juegos/index.html">
-                    <img src="../../img/rompecabezas.png">
+        <!--FIN HEADER-->
+         <!-- BODY -->
+        <div class="row">
+          <h2><strong>Noticias:</strong></h2>
+          <div>
+            <div class="clearfix">
+              <p class="texto-noticia">Lanzamiento de nuevo juego de figuras geometricas.</p>
+              <div class="contenido-noticia">
+                <a href="../pantalla_de_juego/index.html">
+                    <img src="../../img/jigsaw_512.png" alt="rompecabezas" width=512 height="512">
                 </a>
-                
-                <p> <strong>Juegos</strong></p>
-            </div>   
-        </div>
-
-        <div class="column">
-            <div class="column">
-                <a href="../ventana_de_videos/index.html">
-                    <img src="../../img/video.png">
+                <p class="subnombre"><strong>Jugar</strong></p>
+              </div>
+            </div>                 
+          </div>
+          <br>
+          <div class="column">
+            <div class="clearfix-2">
+              <p class="texto-noticia">Lanzamiento de nuevo juego de figuras geometricas.</p>
+              <div class="contenido-noticia">
+                <a href="../pantalla_de_video/index.html">
+                    <img src="../../img/video_512.png" alt="video"width=512 height="512">      
                 </a>
-                
-                <p><strong>Videos</strong></p>
-            </div>
+                <p class="subnombre"><strong>Ver</strong></p>
+              </div>
+            </div>                 
+          </div>
         </div>
-    </div>
-
+        <h2><strong>Secciones:</strong></h2>
+        <div class="gallery">
+          <div>
+            <a href="../ventana_de_juegos/index.html">
+              <img src="../../img/jigsaw_512.png" alt="rompecabezas" width=512 height="512">
+            </a>
+            <p class="subnombre"> <strong>Juegos</strong></p>
+          </div>
+          
+          <div>
+            <a href="../ventana_de_videos/index.html">
+              <img src="../../img/video_512.png" alt="video" width=512 height="512">
+            </a>
+            <p class="subnombre"><strong>Videos</strong></p>
+          </div>
+        </div> 
     </body>
 </html>

@@ -1,29 +1,30 @@
-.contenedor {
-    display: flex; 
-    justify-content: start;
-}
-
-.contenedor-formulario {
-    margin-top: 50px; 
-    
-}
-
 .form {
-    width: 300px;
-    margin: auto;
+    justify-content:space-around;
+    border: 2px solid darkblue;
+    width: 70%;
+    margin: 4% 15%;
+}
+
+input[type="checkbox"] {
+    transform: scale(1);
+}
+
+input {
+    font-size: 15px;
 }
 
 .input-text {
-    display: block;
     width: 100%;
     background-color: rgba(0, 214, 201, 0.15);
+    margin-bottom: 20px;
+    margin-top: 10px;
     border: none;
-    height: 25px;
+    padding: 5px;
 }
 
-.checkbox {
-    color:green;
-    background-color: green;
+label{
+    font-weight: normal;
+    font-size: 15px;
 }
 
 .row {
@@ -35,4 +36,68 @@
 button {
     padding: 10px;
     border: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width:375px){
+    input{
+        font-size: 18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    button{
+        font-size: 15px;
+    }
+    input[type="checkbox"] {
+        transform: scale(1.1);
+    }
+}
+
+
+ @media (min-width:768px){
+    input{
+        font-size: 21px;
+    }
+    label{
+        font-size: 21px;
+    }
+    button{
+        font-size: 18px;
+    }
+    input[type="checkbox"] {
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width:1024px){
+    input{
+        font-size: 24px;
+    }
+    label{
+        font-size: 24px;
+    }
+    button{
+        font-size: 21px;
+    }
+    input[type="checkbox"] {
+        transform: scale(1.3);
+    }
+}
+
+@media (min-width:1440px){
+    input{
+        font-size: 27px;
+    }
+    label{
+        font-size: 27px;
+    }
+    button{
+        font-size: 24px;
+    }
+    input[type="checkbox"] {
+        transform: scale(1.4);
+    }
+
 }
