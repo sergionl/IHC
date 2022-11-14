@@ -1,40 +1,49 @@
-.contenedor {
-    display: flex;
-    align-content: start;
+.contenedor{
+    display: inline-flex;
+    gap: 20vw;
+    overflow: hidden;
 }
 
-.title {
-    margin: auto;
-    text-align: center;
+.title h2,p{
+    font-size: 25px;
+}
+
+.contenedor img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;   
 }
-
-.item {
-    marker: none;
-    list-style-type: none;
+.container a{
     background-color: rgba(230, 221, 255, 0.42);
     padding: 10px;
+    margin: auto;
 }
 
 .form {
-    margin: 20px;
+    justify-content:space-around;
+    width: 70%;
+    margin: 4% 15%;
 }
 
 .input-text {
     background-color: rgba(211, 196, 255, 0.53);
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
     border: none;
-    margin-top: 5px;
-    width: 80%;
     padding: 5px;
-    margin-left: 15px;
 }
 
 label {
-    margin-top: 5px;
+    font-weight: normal;
+    font-size: 15px;
 }
 
 .container-button{
@@ -44,6 +53,176 @@ label {
 }
 
 .button {
-    padding: 5px;
+    padding: 10px;
     border: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+p {
+    margin-left: 5%;
+}
+
+@media (max-width:374px){
+    .contenedor img{
+        max-width: 32px;
+        max-height: 32px;
+    }
+    input{
+        font-size: 18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    button{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:375px){
+    .contenedor img{
+        max-width: 32px;
+        max-height: 32px;
+    }
+    .contenedor{
+        gap:25vw;
+    }
+    .title h2,p{
+        font-size: 25px;
+    }
+    input{
+        font-size: 18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    button{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:425px){
+    .contenedor img{
+        max-width: 36px;
+        max-height: 36px;
+    }
+    .contenedor{
+        gap:25vw;
+    }
+    .title h2,p{
+        font-size: 28px;
+    }
+    input{
+        font-size: 18px;
+    }
+    label{
+        font-size: 18px;
+    }
+    button{
+        font-size: 15px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .container a{
+        font-size: 15px;
+    }
+
+}
+
+
+ @media (min-width:768px){
+    .contenedor img{
+        max-width: 44px;
+        max-height: 44px;
+    }
+    .contenedor{
+        gap:35vw;
+    }
+    .title h2,p{
+        font-size: 35px;
+    }
+    input{
+        font-size: 21px;
+    }
+    label{
+        font-size: 21px;
+    }
+    button{
+        font-size: 18px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .container a{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:1024px){
+    .contenedor img{
+        max-width: 44px;
+        max-height: 44px;
+    }
+    .contenedor{
+        gap:35vw;
+    }
+    .title h2,p{
+        font-size: 35px;
+    }
+    input{
+        font-size: 21px;
+    }
+    label{
+        font-size: 21px;
+    }
+    button{
+        font-size: 18px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .container a{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:1440px){
+    .contenedor img{
+        max-width: 48px;
+        max-height: 48px;
+    }
+    .contenedor{
+        gap:35vw;
+    }
+    .title h2,p{
+        font-size: 55px;
+    }
+    input{
+        font-size: 24px;
+    }
+    label{
+        font-size: 24px;
+    }
+    button{
+        font-size: 21px;
+    }
+    p{
+        font-size: 24px;
+    }
+    .container a{
+        font-size: 21px;
+    }
+
+
 }
